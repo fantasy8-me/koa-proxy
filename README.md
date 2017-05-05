@@ -1,4 +1,7 @@
-# koa-proxy [![Build Status](https://travis-ci.org/popomore/koa-proxy.png?branch=master)](https://travis-ci.org/popomore/koa-proxy) [![Coverage Status](https://coveralls.io/repos/popomore/koa-proxy/badge.png?branch=master)](https://coveralls.io/r/popomore/koa-proxy?branch=master)
+# Fork from https://github.com/popomore/koa-proxy
+
+# Why
+The origin koa-proxy can not handle requst body properly
 
 Proxy middleware for koa
 
@@ -7,7 +10,7 @@ Proxy middleware for koa
 ## Install
 
 ```
-$ npm install koa-proxy -S
+$ npm install koa-proxy-ext -S
 ```
 
 ## Usage
@@ -16,7 +19,7 @@ When you request http://localhost:3000/index.js, it will fetch http://alicdn.com
 
 ```js
 var koa = require('koa');
-var proxy = require('koa-proxy');
+var proxy = require('koa-proxy-ext');
 var app = koa();
 app.use(proxy({
   host: 'http://alicdn.com'

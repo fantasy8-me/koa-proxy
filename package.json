@@ -1,5 +1,5 @@
 {
-  "name": "koa-proxy",
+  "name": "koa-proxy-ext",
   "version": "0.8.0",
   "description": "Proxy middleware for koa",
   "main": "index",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/popomore/koa-proxy"
+    "url": "https://github.com/fantasy8-me/koa-proxy"
   },
-  "homepage": "https://github.com/popomore/koa-proxy",
-  "author": "popomore <sakura9515@gmail.com>",
+  "homepage": "https://github.com/fantasy8-me/koa-proxy",
+  "author": "eric <fantasy8@126.com>",
   "license": "MIT",
   "scripts": {
     "test": "make test"

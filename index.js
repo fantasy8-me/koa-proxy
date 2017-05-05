@@ -107,7 +107,7 @@ function ignoreQuery(url) {
 }
 
 function getParsedBody(ctx){
-  var body = ctx.request.body;
+  var body = ctx.request.rawBody; // 'koa-bodyparser' must be used in upstream to parse body
   if (body === undefined || body === null){
     return undefined;
   }
